@@ -1,0 +1,37 @@
+.buttonC .tooltiptextC {
+  display: none;
+}
+
+.buttonC:hover .tooltiptextC {
+  text-align: center;
+  top: 50;
+  margin-left: 80px;
+  position: fixed;
+  display: inline;
+  color: darkslateblue;
+  background-color: whitesmoke;
+  border-style: solid;
+  color: teal;
+}
+.buttonC:hover .tooltiptextC:before {
+  content: "⌦";
+  color: teal;
+}
+.buttonCE .tooltiptextCE {
+  display: none;
+}
+
+.buttonCE:hover .tooltiptextCE {
+  text-align: center;
+  top: 50;
+  margin-left: -290px;
+  position: fixed;
+  display: inline;
+  color: teal;
+  background-color: whitesmoke;
+  border-style: solid;
+}
+.buttonCE:hover .tooltiptextCE:after {
+  content: "⌫";
+  color: teal;
+}
